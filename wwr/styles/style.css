@@ -9,6 +9,7 @@ nav a {
     color: white;
     text-decoration: none;
     padding: 35px;
+    font-family: Sofia sans;
 }
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
@@ -35,7 +36,7 @@ header {
 }
 nav a:hover {
     background-color: #368f8b;
-    color: #ddbea8;
+    color: #f3dfc1;
 }
 .book, .join {
     background-color: #f3dfc1;
