@@ -1,11 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sofia+Sans:ital,wght@1,300&display=swap');
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
 }
 nav a {
     text-align: center;
-    color: #ddbea8;
+    color: white;
     text-decoration: none;
+    padding: 35px;
 }
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
@@ -19,9 +22,13 @@ main section {
 #background {
     height: 725px;
     background-color: #368f8b;
+    margin-bottom: 100px;
 }
 body {
     background-color: #fcfbfb;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 header {
     background-color: #246a73;
@@ -31,9 +38,14 @@ nav a:hover {
     color: #ddbea8;
 }
 .book, .join {
-    background-color: #246a73;
-    color: #ddbea8;
+    background-color: #f3dfc1;
+    color: #246a73;
     text-decoration: none;
+    font-family: Sofia sans;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover {
     background-color: #368f8b;
@@ -41,40 +53,57 @@ nav a:hover {
 }
 .msg {
     background-color: #246a73;
+    line-height: 1.5em;
+    padding: 35px;
+    margin-top: 200px;
 }
 .msg h2 {
-    color: #ddbea8;
+    color: white;
+    font-family: Sofia sans;
 }
 .msg p {
-    color: #ddbea8 ;
+    color: white ;
+    font-family: Sofia sans;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 footer {
     background-color: #246a73;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer a {
-    color: #ddbea8;
+    color: #f3dfc1;
     text-decoration: none;
 }
 footer a:hover {
-    color: #ddbea8;
+    color: #f3dfc1;
 }
 footer p {
     font-size: 1.2em;
-    color: #ddbea8;
+    color: #f3dfc1;
+    font-family: Sofia sans;
 }
 footer p a:hover {
     text-decoration: underline;
-    color: #ddbea8
+    color: #f3dfc1
 }
-
+footer .social img {
+    padding-top: 15px;
+}
 .home-title {
     color:#246a73;
+    font-family: Righteous;
+    font-size: 2em;
+    margin-top: 10px;
 }
 h4 {
     color: #246a73;
+    font-family: Sofia sans;
 }
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 #hero-image {
     width: 100%;
@@ -83,6 +112,22 @@ h4 {
     width: 80px;
     background-color: #fcfbfb;
 }
+#logo_link {
+    padding-top: 5px;
+}
 h2 {
-    color: #246a73
+    color: #246a73;
+    margin: 0;
+}
+.home-grid {
+    font-family: Sofia sans;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid #ddbea8;
+}
+main section img {
+    box-sizing: border-box;
 }
