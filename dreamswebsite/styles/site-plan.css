@@ -4,23 +4,23 @@ Fonts are separated by a | */
 @import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Red+Hat+Display&display=swap');
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #5F9595   ;
-  --secondary-color: #C2D7D0 ;
-  --accent1-color: #EFBC68;
-  --accent2-color: #FFB7A1;
+  --primary-color: #60bfc1   ;
+  --secondary-color: #f7e3db ;
+  --accent1-color: #fdb7b9;
+  --accent2-color: #c17779;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "Red Hat Display", Verdana, sans-serif;
   --paragraph-font: Merriweather, Georgia , serif;
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #5f9595;  /* headlines on a white background */ 
+  --headline-color-on-white: #60bfc1;  /* headlines on a white background */ 
   --headline-color-on-color: white; /* headlines on a colored background */ 
-  --paragraph-color-on-white: #5f9595; /* paragraph text on a white background */ 
+  --paragraph-color-on-white: #60bfc1; /* paragraph text on a white background */ 
   --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #5f9595  ;
+  --paragraph-background-color: #60bfc1  ;
   --nav-link-color: white;
-  --nav-background-color: #efbc68;
+  --nav-background-color: #fdb7b9;
   --nav-hover-link-color: white;
   --nav-hover-background-color: white;
 }
