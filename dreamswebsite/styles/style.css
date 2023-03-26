@@ -37,11 +37,23 @@ nav input[type=text]{
     text-align: center;
     color: #FDB7B9;
     font-size: 90px;
+    opacity: 0;
+    transform: translateY(30px);
+    animation: moveup 0.5s linear forwards;
 }
 #laptop-msg h4 {
     text-align: center;
     color: white;
     font-size: 60px;
+    opacity: 0;
+    transform: translateY(30px);
+    animation: moveup 0.9s linear forwards;
+}
+@keyframes moveup {
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
 }
 main section {
     text-align: center;
@@ -59,11 +71,12 @@ header {
 }
 .phone-card {
     background-color: #FDB7B9;
-    margin-top: 300px;
+    margin-top: 270px;
     padding: 35px;
     grid-column: 6/10;
     grid-row: 6/7;
     box-shadow: 5px 5px 10px #6f7364;
+    border-radius: 25px;
 }
 .phone-card h2 {
     color: #C17779;
@@ -140,9 +153,10 @@ footer .social img {
     background-color: #F7E3DB;
     margin-top: 300px;
     margin-bottom: 10px;
-    grid-column: 1/11;
+    grid-column: 2/10;
     grid-row: 7/8;
-    box-shadow: 5px 5px 10px #6f7364;
+    border: 10px solid #d38c8f;
+    border-radius: 25px;
 }
 .phone p {
     margin-top: 130px;
@@ -163,6 +177,7 @@ main section img {
     grid-row: 5/8;
     box-shadow: 5px 5px 10px #6f7364;
     border: 10px solid #F7E3DB;
+    border-radius: 25px;
 }
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -231,11 +246,122 @@ main section img {
     text-align: center;
     color: #FDB7B9;
     font-size: 90px;
+    opacity: 0;
+    transform: translateY(30px);
+    animation: moveup 0.5s linear forwards;
+    
 }
 #laptops-msg h4 {
     text-align: center;
     color: white;
     font-size: 60px;
+    opacity: 0;
+    transform: translateY(30px);
+    animation: moveup 0.9s linear forwards;
+
 }
+@keyframes moveup {
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+.info-grid {
+    font-family: Merriweather, Georgia , serif;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+.idea-img {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    margin-top: 200px;
+    border: 10px solid #F7E3DB;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+.idea-card {
+    grid-column: 4/10;
+    grid-row: 2/3;
+    margin-top: 200px;
+}
+.design-img {
+    width: 300%;
+    grid-column: 4/6;
+    grid-row: 5/6;
+    margin-top: 300px;
+    border: 10px solid #F7E3DB;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+.design-card {
+    grid-column: 2/3;
+    grid-row: 5/6;
+    margin-top: 250px;
+}
+.idea-card h2 {
+    position: relative;
+    font-size: 5vw;
+    color: white;
+    -webkit-text-stroke: 0.3 vw grey;
+    text-transform: uppercase;
+    font-family: "Red Hat Display", Verdana, sans-serif;
+    
+}
+.idea-card h2::before {
+    content:attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    color: #C17779;
+    -webkit-text-stroke: 0vw white;
+    border-right: 2px solid #C17779;
+    overflow: hidden;
+    animation: animate 6s linear infinite;
+}
+@keyframes animate {
+    0%, 10%, 100% 
+    {
+      width: 0;
+    }
+    70%, 90%
+    {
+        width: 100%;
+    }
+}
+.design-card h2 {
+    position: relative;
+    font-size: 5vw;
+    color: white;
+    -webkit-text-stroke: 0.3 vw grey;
+    text-transform: uppercase;
+    font-family: "Red Hat Display", Verdana, sans-serif;
+}
+.design-card h2::before {
+    content:attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    color: #C17779;
+    -webkit-text-stroke: 0vw white;
+    border-right: 2px solid #C17779;
+    overflow: hidden;
+    animation: animate 6s linear infinite;
+}
+@keyframes animate {
+    0%, 10%, 100% 
+    {
+      width: 0;
+    }
+    70%, 90%
+    {
+        width: 100%;
+    }
+}
+
+
 
   
